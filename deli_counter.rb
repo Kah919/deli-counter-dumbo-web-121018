@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(name)
   if katz_deli.length > 0
-    puts "The line is currently: #{katz_deli.length}. #{name}"
+    puts "The line is currently: #{katz_deli.index(name) + 1}. #{name}."
   else
     puts "The line is currently empty."
   end
