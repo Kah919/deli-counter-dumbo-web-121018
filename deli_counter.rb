@@ -2,6 +2,7 @@
 katz_deli = []
 
 def line(name)
+  katz_deli << name
   if katz_deli.length > 0
     puts "The line is currently: #{katz_deli.index(name) + 1}. #{name}."
   else
