@@ -2,10 +2,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  msg = "The line is currently: "
+  msg = "The line is currently:"
   if katz_deli.length > 0
     katz_deli.each_with_index do |name, idx|
-      msg += "#{idx + 1}. #{name}"
+      msg += " #{idx + 1}. #{name}"
     end
     puts msg
   else
